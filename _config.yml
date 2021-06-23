@@ -55,7 +55,6 @@ dropdown_question_name: "entry.260701132"
 file_upload_question_name: "entry.260701132"
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
