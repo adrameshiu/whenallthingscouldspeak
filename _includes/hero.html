@@ -1,0 +1,12 @@
+<div class="hero-main" id="myhero">
+    <div class="header-section">
+        <div class="navbar-options">
+            {% include my-header.html %}
+        </div>
+    </div>
+    
+    <div class="hero__content" data-scroll data-scroll-speed="2">
+        <h1 class="hero__title" data-scroll data-scroll-speed="-8" data-scroll-position="top" data-scroll-target="#myhero"> {{ page.title }} </h1>
+        <p>{{content}}</p>       
+    </div>
+</div>

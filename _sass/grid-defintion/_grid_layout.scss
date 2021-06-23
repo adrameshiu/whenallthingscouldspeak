@@ -1,0 +1,80 @@
+// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas
+
+// main grid for the whole page
+.main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+      "hero  hero  hero  hero  hero  hero  hero  hero  hero"
+      "left  left  middle  middle  middle  middle  middle  right  right"
+      "fotr  fotr  fotr  fotr  fotr  fotr  fotr  fotr  fotr";
+    grid-gap: 1em 2em;
+}
+
+.hero-section {
+    grid-area: hero;
+    height:1000px; //manually fitting first page in here...find a better way?
+}
+.footer-section {
+    grid-area: fotr;
+}
+.middle-section {
+    grid-area: middle;
+}
+.left-section {
+    grid-area: left;
+}
+.right-section {
+    grid-area: right ;
+}
+
+
+// sub grid to move the navigaton options to the top right
+.header-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navbar-options {
+    grid-column: 3 / 3; // format is `start-column / end-column 
+}
+
+.other_user_inputs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+      "icn  lbl  lbl";
+}
+
+.icon-section {
+    grid-area: icn;
+}
+.label-section {
+    grid-area: lbl;
+}
+
+
+
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+      "head  head  head"
+      "bod  bod  butt";
+    grid-gap: 1em 2em;
+    margin-bottom: 10px;
+}
+
+.footer-submit-header {
+    grid-area: head;
+}
+.footer-submit-content {
+    grid-area: bod;
+}
+.footer-submit-button {
+    grid-area: butt;
+}

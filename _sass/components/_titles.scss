@@ -1,0 +1,19 @@
+.title-area {
+    background: $clr-blue;
+    grid-column: 1 / 9; // start-line-num / end-line-num
+    padding: 3em 0;
+    text-align: center;
+    color: $clr-white;
+}
+
+.title {
+    font-family: $ff-ss;
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin: 0;
+}
+
+h1 {
+    font-family: $story-font;
+    color: $text-color;
+}

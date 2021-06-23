@@ -1,0 +1,44 @@
+/*
+
+header & nav bar
+
+*/
+
+.navbar-options {
+  grid-template-columns: 6 / 9;
+}
+
+#wax-navbar-id {
+font-family: $story-font;
+color: $text-color;
+z-index: 100000;
+padding: $margin;
+letter-spacing: 0.075rem;
+
+  #wax-navbar-options {
+    grid-column: 1 / 9;
+  }
+
+  .navbar-nav {
+    .nav-item {
+      z-index: 1000000;
+      background-color: $bg-color;
+    }
+    .nav-link {
+      color: $text-color;
+    }
+    .nav-link:hover {
+      color: $accent-dark;
+    }
+    .nav-link:active {
+      background-color: $bg-color;
+    }
+    .dropdown-menu {
+      background-color: $bg-color;
+      border-color: $neutral;
+      .dropdown-item:focus {
+        background-color: transparent;
+      }
+    }
+  }
+}

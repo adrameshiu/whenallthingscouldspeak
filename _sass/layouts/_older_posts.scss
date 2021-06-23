@@ -1,0 +1,16 @@
+.older-posts {
+    background: $clr-black;
+    grid-column: 1 / 9;
+    padding: 2em 0;
+    color: $clr-white;
+    display: grid;
+    margin-top: 4em;
+    grid-template-columns: inherit;
+    grid-gap: inherit;
+
+
+    h2 {
+        grid-column: 2 / 8;
+
+    }
+}

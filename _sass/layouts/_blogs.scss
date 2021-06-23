@@ -1,0 +1,38 @@
+.blog-post {
+    grid-column: span 2;
+}
+
+.blog-post:first-of-type {
+    grid-column: 2 / 4;
+
+}
+
+.blog__title {
+    font-family: $ff-ss;
+    font-size: 2em;
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity ease-out 200ms;
+
+    //https://sparkbox.com/foundry/how_to_use_ampersands_to_simplifiy_your_sass
+    &:hover {
+        opacity: .6;
+    }
+}
+
+.blog__link {
+    display: inline-block;
+    padding: .7em 2.4em;
+    text-decoration: none;
+    background: linear-gradient(45deg, $clr-pink, mix($clr-pink,$clr-black, 20%));
+    color: $clr-white;
+    font-family: $ff-ss;
+    text-transform: uppercase;
+    margin-top: 1em;
+
+    &:hover {
+        transition: opacity ease-out 200ms ;
+        opacity: .6;
+    }
+}

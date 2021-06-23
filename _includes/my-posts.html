@@ -1,0 +1,28 @@
+<h2>Most Recent Post</h2>
+<ul class="my-posts">
+    {% for post in site.posts limit:1 %}
+    <div class="blog-post">
+        <a class="blog__title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <p class="post__desc">
+            {{ post.description}}
+        </p>
+        <a class="blog__link" href="{{ post.url | relative_url }}">Read More</a>
+    </div>
+    {% endfor %}
+</ul>
+
+
+
+<section class="older-posts">
+    <h2>Older posts</h2>
+  
+        {% for post in site.posts limit:3 offset:1 %}
+        <div class="blog-post">
+            <a class="blog__title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <p class="post__desc">
+                {{ post.description}}
+            </p>
+            <a class="blog__link" href="{{ post.url | relative_url }}">Read More</a>
+        </div>
+        {% endfor %}
+</section>

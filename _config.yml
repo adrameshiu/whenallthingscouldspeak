@@ -1,0 +1,100 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: When All Things Could Speak
+email: martisae@iu.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# --------------------------------------------------------------
+# Different collections defined
+# --------------------------------------------------------------
+
+
+collections:
+  original-tales: #...needs to have a _original-tales folder
+    output: true
+  remixed-tales: 
+    output: true
+
+
+# --------------------------------------------------------------
+# User Engagement Form Details
+# --------------------------------------------------------------
+# get these details by inspecting the google form and getting the required details
+# follow the following link for an explanation on how to find them
+# https://www.developerdrive.com/add-google-forms-static-site/
+# https://jdvp.me/articles/Google-Forms-Jekyll-Comments
+
+form_action_link: "https://docs.google.com/forms/d/e/1FAIpQLSfvXAz45ql6ZZThCoS0X8LJv0I4OprDnRySrHck33MYBbGlpA/formResponse"
+moral_question_name: "entry.260701132"
+personal_story_question_name: "entry.260701132"
+checkbox_question_name: "entry.260701132"
+dropdown_question_name: "entry.260701132"
+file_upload_question_name: "entry.260701132"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+
+# --------------------------------------------------------------
+# SITE MENU SETTINGS
+# --------------------------------------------------------------
+# Each menu item needs a `label` (whats shown), and a `link`
+# (where it goes). An item can optionally have a dropdown
+# submenu via `sub`.
+
+menu:
+  - label: 'Stories'
+    sub:
+      - label: 'Little Red Riding Hood'
+        link: '/exhibits/a/'
+      - label: 'Blue Beard'
+        link: '/exhibits/b/'
+  - label: 'The Project' #information about what the project is and means to do
+    link: '/collection/'
+  - label: 'Contact'
+    link: '/search/'
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

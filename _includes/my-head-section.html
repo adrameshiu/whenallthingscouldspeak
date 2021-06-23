@@ -1,0 +1,21 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.show_head_title %}
+      <title>
+        {{ site.title }}{% if page.label %} | {{ page.label }}{% elsif page.title %} | {{ page.title }}{% endif %}
+      </title>
+    {% endif %}
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+ 
+
+    <script type='text/javascript' src="{{ '/assets/js/jquery-3.2.1.min.js' | absolute_url }}"></script>
+    <noscript><p>Please enable JavaScript in your browser.</p></noscript>
+
+    <!-- locomotive_parallax scrollsheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  
+</head>
+  

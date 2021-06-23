@@ -1,0 +1,25 @@
+.right-section {
+    .user__interaction  {
+        padding-top: 10em;
+    }
+}
+
+.right-section {
+    .user__interaction_2  {
+        padding-top: 50em;
+    }
+}
+
+.user__engagement_box_other_input {
+    position: relative;
+    bottom:4em;
+    width:55%;
+    margin:0 auto;
+    padding:2em 2em 1em 2em;
+    text-align: center;
+    line-height: 1.3em;
+    font-weight: 900;
+    border-radius: 25px;
+    background-color: $user-engage-other-inputs-background-color;
+    box-shadow: 0 5px 10px rgba(37, 52, 57,0.3);
+}

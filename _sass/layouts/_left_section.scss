@@ -1,0 +1,41 @@
+// .user__interaction {
+//     padding-top: 10em;
+// }
+
+.left-section.user__interaction {
+    padding-top: 10em;
+}
+
+.interaction__box_holder {
+    width:95%;
+}
+
+.question__box, 
+.response__box {
+    border-radius: 0 30px 30px 30px;
+}
+
+.question__box, .question__box>img, 
+.response__box, .response__box>img {
+    border-radius: 0 30px 30px 30px;
+}
+
+.question__box>img,
+.response__box>img {
+    width:80%;
+    height:80%;
+}
+
+.user__engagement_box {
+    position: relative;
+    bottom:4em;
+    width:55%;
+    margin:0 auto;
+    padding:2em 2em 1em 2em;
+    text-align: center;
+    line-height: 1.3em;
+    font-weight: 900;
+    border-radius: 25px;
+    background-color: $user-engage-background-color;
+    box-shadow: 0 5px 10px rgba(37, 52, 57,0.3);
+}

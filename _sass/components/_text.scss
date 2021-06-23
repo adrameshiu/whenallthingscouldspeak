@@ -1,0 +1,22 @@
+a {
+color: $accent-light;
+font-weight: 700;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+color: $accent-dark;
+}
+
+p {
+color: $text-color;
+max-width: 100%;
+margin-bottom: $less-margin;
+letter-spacing: .02rem;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.75rem;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+}
