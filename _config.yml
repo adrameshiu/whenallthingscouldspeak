@@ -28,16 +28,14 @@ baseurl: /whenallthingscouldspeak # the subpath of your site, e.g. /blog
 #url: adrameshiu.github.io
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 homepage: ""
-# try this https://stackoverflow.com/questions/18023908/static-resources-not-loading-on-github-pages
+
 # --------------------------------------------------------------
 # Different collections defined
 # --------------------------------------------------------------
-
-
 collections:
   original-tales: #...needs to have a _original-tales folder
     output: true
-  remixed-tales: 
+  remixed-tales: #...needs to have a _remixed-tales folder
     output: true
 
 
@@ -69,12 +67,6 @@ plugins:
 # submenu via `sub`.
 
 menu:
-  - label: 'Stories'
-    sub:
-      - label: 'Little Red Riding Hood'
-        link: '/exhibits/a/'
-      - label: 'Blue Beard'
-        link: '/exhibits/b/'
   - label: 'The Project' #information about what the project is and means to do
     link: '/collection/'
   - label: 'Contact'

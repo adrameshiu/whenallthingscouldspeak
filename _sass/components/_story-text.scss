@@ -1,0 +1,19 @@
+.story-text {
+    // margin-top: 20vh;
+     text-align: center;
+
+     p {
+         font-family: $intro-font;
+         font-size: 1.5rem;
+     }
+
+     h1 {
+         font-size: 2rem;
+     }
+     
+     cite {
+       //   display: block;
+         font-size: 3vw;
+         font-family: $handwriting-font;
+     }
+ }

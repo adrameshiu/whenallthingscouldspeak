@@ -3,6 +3,7 @@ layout: my-home-layout
 title: "Hatchet Man"
 type: "original"
 poster_image_link: "https://americanfolklore.net/graphics/spooky/bloody-mary-whales.jpg"
+author: "Sarah Martin"
 show_head_title: false
 
 
