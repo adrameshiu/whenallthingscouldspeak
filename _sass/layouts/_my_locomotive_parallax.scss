@@ -48,6 +48,96 @@
   }
 }
 
+.story-model-2-parallax {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  padding: 0 1rem;
+
+  
+  .parallax-mask {
+      width: 700px;
+      height: 80vh;
+      background: url('/assets/images/GreyBackground.png');
+      // background-color: bisque;
+      background-size: 100%;
+
+      img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+      }
+  }
+
+  .ground {
+    width: 151%;
+    height: 697px;
+    position: absolute;
+    background-size: 800px 716px;
+    left: 0;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  .bg-trees {
+    background: url("/assets/images/BG_Trees1-2.png");
+    // background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hallowfront4.svg');
+    background-size: contain;
+    height: 729px;
+    position:absolute;
+   // margin-top: 270px;
+    // animation: my-move 10s -5s ease infinite;
+    width: 700px;
+ //   margin-left: 565px;
+
+  }
+  
+  .front {
+    background: url("/assets/images/LilRed.png");
+    // background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hallowfront4.svg');
+    background-size: contain;
+    height: 250px;
+    position:absolute;
+    margin-top: 270px;
+    animation: my-move 10s -5s ease infinite;
+    width: 200px;
+    margin-left: 565px;
+  }
+
+  .house {
+    background: url("/assets/images/House.png");
+    // background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hallowfront4.svg');
+    background-size: 700px 800px;
+    position:absolute;
+    // margin-top: 270px;
+    // animation: my-move 10s -5s ease infinite;
+
+    margin-left: 300px;
+  }
+
+  .wolf {
+    background: url("/assets/images/Wolf.png");
+    // background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hallowfront4.svg');
+    background-size: 700px 800px;
+    position:absolute;
+    // margin-top: 270px;
+    // animation: my-move 10s -5s ease infinite;
+
+    margin-left: 800px;
+  }
+
+  // .heroine {
+  //   width: 184px;
+  //   height: 123px;
+  //   background: url("/assets/images/LilRed.png");
+  //   animation: heroine-move 0.7s steps(15) infinite;
+  //   position: absolute;
+  //   left: 50%;
+  //   margin-left: -100px;
+  //   margin-top: 312px;
+  // }
+}
 
 
 .story-model-1 {

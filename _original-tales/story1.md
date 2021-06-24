@@ -22,3 +22,13 @@ show_head_title: false
         <div class="heroine"></div>
     </div>
 </div>
+
+<div class="story-model-2-parallax">
+    <div class="parallax-mask">
+        <!-- <div class="bg-trees"></div> -->
+        <div class="front ground"></div>
+        <div class="house ground"></div>
+        <div class="wolf ground"></div>
+        <div class="heroine"></div>
+    </div>
+</div>

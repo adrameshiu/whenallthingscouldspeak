@@ -5,3 +5,8 @@
 @keyframes heroine-move {
   100% { background-position: 0 -1848px; }
 }
+
+@keyframes my-move {
+  25% { background-position: 5% 0; }
+  75% { background-position: -5% 0; }
+}
