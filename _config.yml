@@ -28,7 +28,7 @@ baseurl: "/WhenAllThingsCouldSpeak" # the subpath of your site, e.g. /blog
 #url: adrameshiu.github.io
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 homepage: ""
-
+# try this https://stackoverflow.com/questions/18023908/static-resources-not-loading-on-github-pages
 # --------------------------------------------------------------
 # Different collections defined
 # --------------------------------------------------------------
