@@ -15,4 +15,7 @@ This is a tale like no other..
 
 On one condition -  you have to engage, react and express with the story honestly, cool?  
 
-## Pick a story you would like to listen to...
+This folktale, while grounded in history and many re-tellings, is also alive. 
+It responds to you.  
+
+As you read, you impart the way you've heard the story, and the story subtly changes. 

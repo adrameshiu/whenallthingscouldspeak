@@ -47,12 +47,18 @@ collections:
 # https://www.developerdrive.com/add-google-forms-static-site/
 # https://jdvp.me/articles/Google-Forms-Jekyll-Comments
 
-form_action_link: "https://docs.google.com/forms/d/e/1FAIpQLSfvXAz45ql6ZZThCoS0X8LJv0I4OprDnRySrHck33MYBbGlpA/formResponse"
-moral_question_name: "entry.260701132"
-personal_story_question_name: "entry.260701132"
-checkbox_question_name: "entry.260701132"
-dropdown_question_name: "entry.260701132"
-file_upload_question_name: "entry.260701132"
+# Sarah's form details..follow above link
+form_action_link: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSenCBOKhdydieofIRF6bVEsduYfP7I4L2MtCH1HpzpzAXZdYQ/formResponse"
+cape_question_name: "entry.366626662"
+story_moral_question_name: "entry.1319386354"
+what_happens_next_1_checkbox_question_name: "entry.1444426041"
+
+
+# Ben's test form
+# form_action_link: "https://docs.google.com/forms/d/e/1FAIpQLSfvXAz45ql6ZZThCoS0X8LJv0I4OprDnRySrHck33MYBbGlpA/formResponse"
+# cape_question_name: "entry.991222131"
+# story_moral_question_name: "entry.260701132"
+# what_happens_next_1_checkbox_question_name: "entry.1046967831"
 
 # Build settings
 plugins:

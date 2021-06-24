@@ -1,10 +1,14 @@
-// .user__interaction {
-//     padding-top: 10em;
-// }
 
-.left-section.user__interaction {
-    padding-top: 10em;
+.left-section {
+    .user__interaction_2  {
+        padding-top: 120em;
+    }
+
+    .user__interaction  {
+        padding-top: 20em;
+    }
 }
+
 
 .interaction__box_holder {
     width:95%;
