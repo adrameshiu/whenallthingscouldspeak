@@ -29,6 +29,17 @@ show_head_title: false
         <div class="front ground"></div>
         <div class="house ground"></div>
         <div class="wolf ground"></div>
+        <div class="tree ground"></div>
+        <div class="motes ground"></div>
         <div class="heroine"></div>
     </div>
 </div>
+
+
+<!-- <div class="story-video-1-parallax">
+    <video controls loop>
+        <source src="/assets/images/my-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div> -->
+

@@ -7,6 +7,31 @@
 }
 
 @keyframes my-move {
-  25% { background-position: 5% 0; }
-  75% { background-position: -5% 0; }
+  25% { background-position: 20% 0; }
+  75% { background-position: -20% 0; }
 }
+
+@keyframes up-move-slow {
+  25% { background-position: 0 -5%; }
+  75% { background-position: 0 5%; }
+}
+
+@keyframes up-move-fast {
+  25% { background-position: 0 -10%; }
+  75% { background-position: 0 10%; }
+}
+
+@keyframes wolf-zoom {
+  0% {transform: scale(1,1);}
+  60% {transform: scale(1.2,1.2);}
+  100% {transform: scale(1,1);}
+}
+
+@keyframes motes-flicker {
+  0%   { opacity:0; }
+  30%  { opacity:1; }
+  50%  { opacity:0; }
+  70%  { opacity:1; }
+  100% { opacity:0; }
+}
+
