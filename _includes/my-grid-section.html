@@ -1,26 +1,25 @@
 <div data-scroll-container>
-
-
    <form target="_blank" action={{ site.form_action_link }} method="post" class="main-wrapper">
+
       <section class="hero-section" data-scroll-section>
-         {% include hero.html %}
+         {% include my-hero-section.html %}
       </section>
+
       <section class="left-section" data-scroll-section>
          {% include my-left-section.html %}
       </section>
+
       <section class="middle-section">
          {% include my-middle-section.html %}
-         <!-- {% include my-parallax1.html %}   -->
       </section>
+
       <section class="right-section" data-scroll-section>
          {% include my-right-section.html %}
       </section>
+
       <section class="footer-section" data-scroll-section>
-         <!-- <p data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
-            You might have heard of the blue beard....
-        </p> -->
          {% include my-footer-section.html %}
       </section>
-   </form>
 
+   </form>
 </div>
