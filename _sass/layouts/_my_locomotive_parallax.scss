@@ -8,7 +8,7 @@
   
   .parallax-mask {
       width: 700px;
-      height: 80vh;
+      height: 70vh;
       background-color: bisque;
       background-size: 100%;
 
@@ -57,9 +57,8 @@
   
   .parallax-mask {
       width: 700px;
-      height: 80vh;
+      height: 70vh;
       background: url('/assets/images/GreyBackground.png');
-      // background-color: bisque;
       background-size: 100%;
 
       img {
@@ -82,20 +81,15 @@
 
   .bg-trees {
     background: url("/assets/images/BG_Trees1-2.png");
-    // background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hallowfront4.svg');
     background-size: contain;
     height: 729px;
     position:absolute;
-   // margin-top: 270px;
-    // animation: my-move 10s -5s ease infinite;
     width: 700px;
- //   margin-left: 565px;
-
+ 
   }
   
   .front {
     background: url("/assets/images/LilRed.png");
-    // background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hallowfront4.svg');
     background-size: contain;
     height: 250px;
     position:absolute;
@@ -107,7 +101,6 @@
 
   .tree {
     background: url("/assets/images/Tree5.png");
-    // background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hallowfront4.svg');
     background-size: 200px 400px;
     height: 250px;
     position:absolute;
@@ -119,20 +112,16 @@
 
   .house {
     background: url("/assets/images/House.png");
-    // background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hallowfront4.svg');
     background-size: 700px 800px;
     position:absolute;
-    // margin-top: 270px;
     animation: up-move-fast 10s -5s ease infinite;
-
     margin-left: 10px;
+    background-repeat: no-repeat;
   }
 
   .motes {
     background: url("/assets/images/Motes.png");
-    // background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hallowfront4.svg');
     position:absolute;
-    // margin-top: 270px;
     animation: motes-flicker 2s -5s ease infinite;
 
     margin-left: -100px;
@@ -141,32 +130,19 @@
 
   .wolf {
     background: url("/assets/images/Wolf.png");
-    // background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hallowfront4.svg');
     background-size: 800px 800px;
     position:absolute;
     margin-top: -150px;
     margin-left: 350px;
     height: 500px;
-    width: 500px;
+    width: 600px;
     animation: wolf-zoom 15s -5s ease infinite;
   }
-
-  // .heroine {
-  //   width: 184px;
-  //   height: 123px;
-  //   background: url("/assets/images/LilRed.png");
-  //   animation: heroine-move 0.7s steps(15) infinite;
-  //   position: absolute;
-  //   left: 50%;
-  //   margin-left: -100px;
-  //   margin-top: 312px;
-  // }
 }
 
 
 .story-model-1 {
   .story-model-1-image {
-    height: 100vh;
     display: grid;
     place-content: center;
     padding: 0 1rem;
@@ -174,7 +150,7 @@
     
     .image-mask {
         width: 500px;
-        height: 80vh;
+        height: 70vh;
         background: url('https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80');
         background-size: cover;
         background-position-x: 50%;
