@@ -1,6 +1,7 @@
 # When All Things Could Speak...
 
-
+A prototype digital exhibit created as part of the IDAH Sumemr Incubator program.
+Under the guidance of Assistant Professor Sarah Martin, we wanted to create an exhibit where we can tell stories and engage with readers/users interactively.
 
 ## Usage
 
