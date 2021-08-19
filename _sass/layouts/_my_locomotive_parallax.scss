@@ -58,7 +58,7 @@
   .parallax-mask {
       width: 700px;
       height: 70vh;
-      background: url('/assets/images/GreyBackground.png');
+      background: url('/whenallthingscouldspeak/assets/images/GreyBackground.png');
       background-size: 100%;
 
       img {
@@ -80,7 +80,7 @@
   }
 
   .bg-trees {
-    background: url("/assets/images/BG_Trees1-2.png");
+    background: url("/whenallthingscouldspeak/assets/images/BG_Trees1-2.png");
     background-size: contain;
     height: 729px;
     position:absolute;
@@ -89,7 +89,7 @@
   }
   
   .front {
-    background: url("/assets/images/LilRed.png");
+    background: url("/whenallthingscouldspeak/assets/images/LilRed.png");
     background-size: contain;
     height: 250px;
     position:absolute;
@@ -100,7 +100,7 @@
   }
 
   .tree {
-    background: url("/assets/images/Tree5.png");
+    background: url("/whenallthingscouldspeak/assets/images/Tree5.png");
     background-size: 200px 400px;
     height: 250px;
     position:absolute;
@@ -111,7 +111,7 @@
   }
 
   .house {
-    background: url("/assets/images/House.png");
+    background: url("/whenallthingscouldspeak/assets/images/House.png");
     background-size: 700px 800px;
     position:absolute;
     animation: up-move-fast 10s -5s ease infinite;
@@ -120,7 +120,7 @@
   }
 
   .motes {
-    background: url("/assets/images/Motes.png");
+    background: url("/whenallthingscouldspeak/assets/images/Motes.png");
     position:absolute;
     animation: motes-flicker 2s -5s ease infinite;
 
@@ -129,7 +129,7 @@
   }
 
   .wolf {
-    background: url("/assets/images/Wolf.png");
+    background: url("/whenallthingscouldspeak/assets/images/Wolf.png");
     background-size: 800px 800px;
     position:absolute;
     margin-top: -150px;
