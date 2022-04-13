@@ -1,5 +1,5 @@
 .hero-main {
-    color: $landing-page-text-color; 
+    color: $landing-page-text-color;
     text-align: center;
     line-height: 0.9;
     font-family: $heading-font;
@@ -17,7 +17,7 @@
 }
 
 .hero__content {
-    padding-top: 15vh;
+    padding-top: 40vh;
 }
 
 // defining background image for the landing page as a pseudo element
@@ -25,13 +25,30 @@
 // http://nicolasgallagher.com/css-background-image-hacks/
 .hero-main::before {
     content: '';
-    background-image: url('https://lsuonline-static.s3.amazonaws.com/media/images/2020/02/24/fairy-tale-feature.jpg');
+    background-image: url("/whenallthingscouldspeak/assets/images/intro.jpg");
+    // background-image: url("https://historicindianapolis.com/wp-content/uploads/2013/10/house.front_.jpg");
+    // background-image: url('https://lsuonline-static.s3.amazonaws.com/media/images/2020/02/24/fairy-tale-feature.jpg');
     background-size: cover;
     position: absolute; //we have to fix background image position as a layer behind the main content layer
     opacity: 0.6;
     top: 0px;
     left: 0px;
-    width: 100%; 
-    height: 1000px; //need to manually define the size of the pseudo before element as it doesnt take from the parent 
+    width: 100%;
+    height: 1150px; //need to manually define the size of the pseudo before element as it doesnt take from the parent
     z-index: -1;
+}
+
+
+.showcase-main {
+  content: '';
+  background-image: url('https://lsuonline-static.s3.amazonaws.com/media/images/2020/02/24/fairy-tale-feature.jpg');
+  background-size: cover;
+  position: absolute; //we have to fix background image position as a layer behind the main content layer
+  opacity: 0.6;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1000px; //need to manually define the size of the pseudo before element as it doesnt take from the parent
+  z-index: -1;
+
 }

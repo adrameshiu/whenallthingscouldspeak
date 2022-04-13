@@ -1,3 +1,15 @@
+//https://dalanzg.github.io/tips-tutorials/posts/2016/03/25/how-to-use-sass-with-jekyll-bootstrap-and-font-awesome-example/
+
+// $cera-compact-font-path: "../fonts/cera-compact-pro-cufonfonts";
+
+// @font-face {
+//   font-family: Cera Compact Pro Light Italic;
+//   src: url("../fonts/cera-compact-pro-cufonfonts/Cera Compact Pro Light Italic/Cera Compact Pro Light Italic.otf")
+//   format('opentype');;
+// }
+
+// @import "cera-compact-pro-cufonfonts/Cera Compact Pro Light Italic";
+
 @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
@@ -9,11 +21,13 @@ $ff-ss: 'Pathway Gothic One', sans-serif; //sans-serif
 $ff-s: 'Cardo', serif; //serif
 
 $body-font:       'Pathway Gothic One', sans-serif;
-$heading-font:    'Cardo', serif; 
+//$body-font: 'Cera Compact Pro Light Italic';
+
+$heading-font:    'Cardo', serif;
 // $story-font:      'Poor Story', cursive;
 $story-font:      'Gloria Hallelujah', cursive;
 
 // $intro-font:      'Yellowtail', cursive;
-$intro-font:      'Special Elite', cursive;
+$intro-font:     'garamond-premier-pro', serif; //'Special Elite', cursive;
 
 $handwriting-font: 'Caveat', cursive;

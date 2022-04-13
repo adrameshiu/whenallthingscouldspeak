@@ -38,7 +38,7 @@
 }
 
 .navbar-options {
-    grid-column: 3 / 3; // format is `start-column / end-column 
+    grid-column: 3 / 3; // format is `start-column / end-column
 }
 
 .other_user_inputs {
@@ -78,4 +78,20 @@
 }
 .footer-submit-button {
     grid-area: butt;
+}
+
+
+.sketch-grid{
+  display: grid;
+}
+
+.sketchlayer1, .sketchlayer2{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.sketchlayer1 {
+  //z-index: 1;
+  //filter: blur(4px);
+  //filter: opacity(70);
 }
