@@ -25,8 +25,8 @@
 // http://nicolasgallagher.com/css-background-image-hacks/
 .hero-main::before {
     content: '';
-    background-image: url("/whenallthingscouldspeak/assets/images/intro.jpg");
-    // background-image: url("https://historicindianapolis.com/wp-content/uploads/2013/10/house.front_.jpg");
+    //background-image: url("/whenallthingscouldspeak/assets/images/intro.jpg");
+    background-image: url("/whenallthingscouldspeak/assets/images/HouseOfBlueLights.png");
     // background-image: url('https://lsuonline-static.s3.amazonaws.com/media/images/2020/02/24/fairy-tale-feature.jpg');
     background-size: cover;
     position: absolute; //we have to fix background image position as a layer behind the main content layer

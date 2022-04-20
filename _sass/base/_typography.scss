@@ -17,17 +17,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
-$ff-ss: 'Pathway Gothic One', sans-serif; //sans-serif
-$ff-s: 'Cardo', serif; //serif
+$ff-ss: 'Pathway Gothic One', sans-serif;
+$ff-s: 'Cardo', serif;
 
-$body-font:       'Pathway Gothic One', sans-serif;
-//$body-font: 'Cera Compact Pro Light Italic';
+$body-font: 'Cera Compact Pro Light Italic';
 
 $heading-font:    'Cardo', serif;
-// $story-font:      'Poor Story', cursive;
-$story-font:      'Gloria Hallelujah', cursive;
 
-// $intro-font:      'Yellowtail', cursive;
-$intro-font:     'garamond-premier-pro', serif; //'Special Elite', cursive;
+$story-font:      'garamond-premier-pro', serif;
 
-$handwriting-font: 'Caveat', cursive;
+$intro-font:     'garamond-premier-pro', serif;
+
+$handwriting-font: 'garamond-premier-pro', serif;
