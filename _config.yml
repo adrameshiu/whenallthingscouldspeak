@@ -47,11 +47,17 @@ collections:
 # https://www.developerdrive.com/add-google-forms-static-site/
 # https://jdvp.me/articles/Google-Forms-Jekyll-Comments
 
-# Sarah's form details..follow above link
-form_action_link: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSenCBOKhdydieofIRF6bVEsduYfP7I4L2MtCH1HpzpzAXZdYQ/formResponse"
-cape_question_name: "entry.366626662"
-story_moral_question_name: "entry.1319386354"
-what_happens_next_1_checkbox_question_name: "entry.1444426041"
+form_action_link: "https://docs.google.com/forms/d/e/1FAIpQLSdC_YKhEFuaSVwaQ_mqQHdlRleyOqy9dYmMexlBy3buR4nLIQ"
+cape_question_name: "entry.1717677910"
+story_moral_question_name: "entry.959875208"
+what_happens_next_1_checkbox_question_name: "entry.115866772"
+
+
+# Sarah's Little Red form details..follow above link
+# form_action_link: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSenCBOKhdydieofIRF6bVEsduYfP7I4L2MtCH1HpzpzAXZdYQ/formResponse"
+# cape_question_name: "entry.366626662"
+# story_moral_question_name: "entry.1319386354"
+# what_happens_next_1_checkbox_question_name: "entry.1444426041"
 
 
 # Ben's test form
